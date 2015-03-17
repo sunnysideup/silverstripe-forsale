@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src" basedir="/var/www/_modules/forsale/trunk">
+  <namespace name="">
+    <class name="ForSaleHolderPage" src="code/ForSaleHolderPage.php" description="author nicolaas[at]sunnysideup.co.nz description: holds For Sale Items and displays them nicely." xml="classes/ForSaleHolderPage.xml"/>
+    <class name="ForSaleHolderPage_Controller" src="code/ForSaleHolderPage.php" xml="classes/ForSaleHolderPage_Controller.xml"/>
+    <class name="ForSaleOnePage" src="code/ForSaleOnePage.php" description="author nicolaas[at] sunnysideup.co.nz description: individual ForSale page. Usually, these are not viewed as they can be read completely from the parent (ForSale HOLDER) page." xml="classes/ForSaleOnePage.xml"/>
+    <class name="ForSaleOnePage_Controller" src="code/ForSaleOnePage.php" xml="classes/ForSaleOnePage_Controller.xml"/>
+  </namespace>
+</index>
