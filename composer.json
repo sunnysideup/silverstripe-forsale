@@ -3,8 +3,10 @@
     "type": "silverstripe-module",
     "description": "adds a page 'for sale' listing application to your Silverstripe website",
     "keywords": [
-        "forsale",
-        "silverstripe"
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
+        "forsale"
     ],
     "license": "Sunny Side Up (BSD-3-Clause and CUSTOM)",
     "authors": [
