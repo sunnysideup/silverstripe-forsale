@@ -5,35 +5,33 @@
  *@description: holds For Sale Items and displays them nicely.
  *
  */
-class ForSaleHolderPage extends Page {
+class ForSaleHolderPage extends Page
+{
+    public static $icon = "mysite/images/treeicons/ForSaleHolderPage";
 
-	static $icon = "mysite/images/treeicons/ForSaleHolderPage";
+    //static $default_parent = '';
 
-	//static $default_parent = '';
+    public static $default_child = 'ForSaleOnePage';
 
-	static $default_child = 'ForSaleOnePage';
+    public static $allowed_children = array('ForSaleOnePage');
 
-	static $allowed_children = array('ForSaleOnePage');
-
-	function getCMSFields() {
-		$fields = parent::getCMSFields();
-		return $fields;
-	}
-
+    public function getCMSFields()
+    {
+        $fields = parent::getCMSFields();
+        return $fields;
+    }
 }
 
-class ForSaleHolderPage_Controller extends Page_Controller {
+class ForSaleHolderPage_Controller extends Page_Controller
+{
+    public function init()
+    {
+        parent::init();
+        Requirements::themedCSS("ForSaleHolderPage");
+    }
 
-
-
-	function init() {
-		parent::init();
-		Requirements::themedCSS("ForSaleHolderPage");
-	}
-
-	function ForSales() {
-		return DataObject::get("ForSaleOnePage", "ShowInMenus = 1 AND ParentID = ".$this->ID);
-	}
-
+    public function ForSales()
+    {
+        return DataObject::get("ForSaleOnePage", "ShowInMenus = 1 AND ParentID = ".$this->ID);
+    }
 }
-
