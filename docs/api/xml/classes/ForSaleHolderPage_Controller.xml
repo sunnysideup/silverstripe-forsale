@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<class xmlns="http://xml.phpdox.net/src" full="ForSaleHolderPage_Controller" namespace="" name="ForSaleHolderPage_Controller" abstract="false" final="false" start="25" end="38">
-  <file path="/var/www/_modules/forsale/trunk/docs/en/phpdox/../../../code" file="ForSaleHolderPage.php" realpath="/var/www/_modules/forsale/trunk/code/ForSaleHolderPage.php" size="714" time="2015-03-14T10:22:28+13:00" unixtime="1426281748" sha1="4bf8265554afdf090d9c15cf843b2e736b3129a0" relative="code/ForSaleHolderPage.php"/>
-  <extends full="Page_Controller" namespace="" name="Page_Controller"/>
-  <method name="init" start="29" end="32" abstract="false" final="false" static="false" visibility="public"/>
-  <method name="ForSales" start="34" end="36" abstract="false" final="false" static="false" visibility="public"/>
-</class>
